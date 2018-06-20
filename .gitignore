@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+
+# Bob's customed filetypes
+/Debug
+/debug
+/settings
+*.ewt
+
