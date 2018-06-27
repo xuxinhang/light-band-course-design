@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\my_first_project.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\new\test.ewp</path>
+    </project>
     <batchBuild />
 </workspace>

@@ -2310,16 +2310,22 @@
         <name>$PROJ_DIR$\achieved\HAL_Board.h</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\HAL_Buttons.c</name>
+        <name>$PROJ_DIR$\achieved\HAL_Buttons.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\HAL_Buttons.h</name>
+        <name>$PROJ_DIR$\achieved\HAL_Buttons.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\led_pwm.c</name>
     </file>
     <file>
         <name>$PROJ_DIR$\led_pwm.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\light_control.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\light_control.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\main.c</name>

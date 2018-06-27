@@ -1,7 +1,6 @@
 #ifndef _INCLUDE_COMMAND_PARSER_H
 #define _INCLUDE_COMMAND_PARSER_H
 
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -16,11 +15,15 @@ typedef struct light_frame_struct {
     struct light_frame_struct *_next;
 } LIGHT_FRAME; 
 
+extern LIGHT_FRAME *frame_list;
+
 int parse_string (char *input_string);
-int main_test_for_parser ();
+int frame_list_clear ();
+
 static LIGHT_FRAME *list_erase (LIGHT_FRAME *list_head);
 static LIGHT_FRAME *list_append (LIGHT_FRAME *list_head);
 
+int main_test_for_parser ();
 
 #endif
 

@@ -1,15 +1,14 @@
 #include "command_parser.h"
 
-
-LIGHT_FRAME *frame_list = NULL;
-
 char example_string[] = "0, 99,123,44,; 700,12,66,128,; 1200, 134,255,80,;";
 
+extern LIGHT_FRAME *frame_list = NULL;
 
 static LIGHT_FRAME *list_append (LIGHT_FRAME *list_head) {
     LIGHT_FRAME *new_item, *temp_pointer;
     
     new_item = (LIGHT_FRAME*)malloc(sizeof(LIGHT_FRAME));
+    new_item->_next = NULL;
     
     if (frame_list == NULL) {
         frame_list = new_item;
@@ -41,7 +40,7 @@ int parse_string (char *input_string) {
     char *semi_pos, *semi_data_pos, *com_pos, *com_data_pos, *end_p;
     unsigned int com_data[ITEM_DATA_LENGTH];
     // char channel_data_str[20];
-    int i;
+    int i, item_counter = 0;
     
     left_pos = input_string;
     semi_pos = semi_data_pos = left_pos;
@@ -49,7 +48,7 @@ int parse_string (char *input_string) {
     char *last_char_pointer = input_string + strlen(input_string) - 1;
     
     // Pointer / Chains
-    LIGHT_FRAME *list_c, *list_prev, *list_new;
+    LIGHT_FRAME *list_c; //, *list_prev, *list_new;
     list_c = frame_list;
     
     while (semi_pos = strchr(semi_data_pos, ';')) {
@@ -73,18 +72,20 @@ int parse_string (char *input_string) {
          
         // Allocate space for a list item
         list_c = list_append(list_c);
+        item_counter++;
         list_c->time = com_data[0];
         list_c->channels[0] = com_data[1];
         list_c->channels[1] = com_data[2];
         list_c->channels[2] = com_data[3];
         list_c->extra_info = com_data[4];
     }
+    
+    return item_counter;
+}
 
-    /* printf("[0]: %d", com_data[0]);
-    printf("[1]: %d", com_data[1]);
-    printf("[2]: %d", com_data[2]);
-    printf("[3]: %d", com_data[3]);
-    printf("[4]: %d", com_data[4]); */
+int frame_list_clear() {
+  frame_list = list_erase(frame_list);
+  return 0;
 }
 
 
@@ -109,8 +110,6 @@ int main_test_for_parser () {
     
     return 0;
 }
-
-
 
 /* using namespace std;
 string example_str = "0, 99,123,44; 700,12,66,128; 1200, 134,255,80";
