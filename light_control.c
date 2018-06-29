@@ -33,27 +33,29 @@ int light_control_abort () {
 
 void interrupt_update_led_lights (void) {
   if (frame_list_length <= 0 || frame_item_pointer == NULL) return;
-
+  if (frame_next_item_pointer == NULL) {
+    frame_next_item_pointer = frame_item_pointer;
+  }
   static float ratio[CHANNEL_NUMBER];
-  static int curt_light[CHANNEL_NUMBER];
+  static float curt_light[CHANNEL_NUMBER];
   int i;
   int time_duration;
   
+  // return;
   if (frame_index_counter <= frame_list->time) {
     led1_light = (int)(frame_list->channels[0]);
     led2_light = (int)(frame_list->channels[1]);
     led3_light = (int)(frame_list->channels[2]);
-  }
-  
-  if (frame_next_item_pointer == NULL) {
-    frame_next_item_pointer = frame_item_pointer;
+    curt_light[0] = led1_light;
+    curt_light[1] = led2_light;
+    curt_light[2] = led3_light;
   }
   
   if (frame_index_counter >= frame_next_item_pointer->time) {
     frame_item_pointer = frame_next_item_pointer;
     
     if (frame_item_pointer->_next == NULL) {  // end of frame list
-      time_duration = 1;
+      time_duration = LIGHT_UPDATE_TIME_CHIP_MS;
       frame_next_item_pointer = frame_array;
       frame_index_counter = frame_array->time;
     } else {
@@ -61,20 +63,24 @@ void interrupt_update_led_lights (void) {
       time_duration = frame_next_item_pointer->time - frame_item_pointer->time;
     }
     
+    float time_chip_diff = ((int)frame_index_counter - (int)(frame_item_pointer->time)) *1.0/ LIGHT_UPDATE_TIME_CHIP_MS;
     for (i = 0; i < CHANNEL_NUMBER; i++) {
-      ratio[i] = ((int)(frame_next_item_pointer->channels[i]) - (int)(frame_item_pointer->channels[i])) *1.0 / time_duration;
+      // Ratio[i] 是每 LIGHT_UPDATE_TIME_CHIP_MS 的变化量
+      ratio[i] = (int)(frame_next_item_pointer->channels[i] - frame_item_pointer->channels[i]) * LIGHT_UPDATE_TIME_CHIP_MS *1.0 / time_duration;
+      curt_light[i] = frame_item_pointer->channels[i] + ratio[i] * time_chip_diff;
+    }
+  
+  } else {
+    // 在区间内递推更新即可
+    for (i = 0; i < CHANNEL_NUMBER; i++) {
+      curt_light[i] += ratio[i];
     }
   }
   
-  for (i = 0; i < CHANNEL_NUMBER; i++) {
-    curt_light[i] = (int)(frame_item_pointer->channels[i]) + ratio[i] * ((int)frame_index_counter - (int)(frame_item_pointer->time));
-  }
-  
-  // [TODO] Update common value
+  // 更新变量值
   led1_light = (int)curt_light[0];
   led2_light = (int)curt_light[1];
   led3_light = (int)curt_light[2];
-
+  frame_index_counter += LIGHT_UPDATE_TIME_CHIP_MS;
   
-  frame_index_counter += 61;
 }
