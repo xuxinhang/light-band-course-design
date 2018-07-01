@@ -2298,6 +2298,12 @@
         </settings>
     </configuration>
     <file>
+        <name>$PROJ_DIR$\bluetooth_port.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\bluetooth_port.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\command_parser.c</name>
     </file>
     <file>

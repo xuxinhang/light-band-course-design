@@ -6,6 +6,10 @@
  * 例外：static 和 const 变量可以在头文件中定义 
  */
 
+#define LIGHT_UPDATE_TIME_CHIP_MS 61 // 呼吸灯亮度变化的时间片
+                        // 61ms 才会更新一次亮度
+
+
 int light_control_update (char frame_list_string[]);
 int light_control_abort ();
 

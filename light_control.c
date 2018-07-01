@@ -14,8 +14,9 @@ LIGHT_FRAME *frame_next_item_pointer = NULL;
 
 
 int light_control_update (char frame_list_string[]) {
+  light_control_abort();
   // Prase string data.
-  frame_list_length = parse_string(frame_list_string);
+  frame_list_length = parse_frame_string(frame_list_string);
   // init variables
   frame_array = frame_list;
   frame_item_pointer = frame_list;
@@ -41,7 +42,6 @@ void interrupt_update_led_lights (void) {
   int i;
   int time_duration;
   
-  // return;
   if (frame_index_counter <= frame_list->time) {
     led1_light = (int)(frame_list->channels[0]);
     led2_light = (int)(frame_list->channels[1]);
@@ -82,5 +82,6 @@ void interrupt_update_led_lights (void) {
   led2_light = (int)curt_light[1];
   led3_light = (int)curt_light[2];
   frame_index_counter += LIGHT_UPDATE_TIME_CHIP_MS;
+  update_led_light();
   
 }

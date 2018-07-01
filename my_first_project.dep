@@ -1,522 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>2</fileVersion>
-    <fileChecksum>4076465317</fileChecksum>
+    <fileChecksum>1516811669</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_AppUart.r43</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
-            <file>$PROJ_DIR$\HAL_Board.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Cma3000.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_AppUart.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Dogs102x6.r43</file>
-            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.h</file>
-            <file>$PROJ_DIR$\HAL_Dogs102x6.h</file>
-            <file>$PROJ_DIR$\Debug\List\my_first_project.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-            <file>$PROJ_DIR$\Debug\Exe\my_first_project.ulp</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Cma3000.c</file>
-            <file>$PROJ_DIR$\HAL_Wheel.h</file>
-            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-            <file>$PROJ_DIR$\HAL_Dogs102x6.c</file>
-            <file>$PROJ_DIR$\HAL_AppUart.h</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Board.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Menu.r43</file>
-            <file>$PROJ_DIR$\Debug\Obj\led_pwm.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\msp430f5529.h</file>
-            <file>$PROJ_DIR$\HAL_Menu.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$PROJ_DIR$\light_control.h</file>
+            <file>$PROJ_DIR$\led_pwm.c</file>
+            <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+            <file>$PROJ_DIR$\light_control.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\command_parser.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\HAL_Board.pbi</file>
+            <file>$PROJ_DIR$\HAL_Board.c</file>
+            <file>$PROJ_DIR$\led_pwm.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\command_parser.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_AppUart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_SDCard.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_AppUart.r43</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Board.h</file>
+            <file>$PROJ_DIR$\command_parser.c</file>
+            <file>$PROJ_DIR$\achieved\HAL_Board.c</file>
+            <file>$PROJ_DIR$\bluetooth_port.c</file>
+            <file>$PROJ_DIR$\achieved\HAL_Board.h</file>
+            <file>$PROJ_DIR$\achieved\HAL_Buttons.h</file>
+            <file>$PROJ_DIR$\bluetooth_port.h</file>
+            <file>$PROJ_DIR$\achieved\HAL_Buttons.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Cma3000.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\command_parser.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Wheel.pbi</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Buttons.c</file>
+            <file>$PROJ_DIR$\HAL_Dogs102x6.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+            <file>$PROJ_DIR$\HAL_Buttons.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Buttons.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\light_control.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_SDCard.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+            <file>$PROJ_DIR$\HAL_Cma3000.h</file>
+            <file>$PROJ_DIR$\HAL_SDCard.c</file>
             <file>$PROJ_DIR$\HAL_Menu.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\my_first_project.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\light_control.pbi</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Dogs102x6.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Menu.r43</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Menu.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Menu.c</file>
+            <file>$PROJ_DIR$\achieved\HAL_Cma3000.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\my_first_project.d43</file>
+            <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
+            <file>$PROJ_DIR$\HAL_AppUart.c</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430f5529.xcl</file>
             <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Buttons.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\command_parser.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_pwm.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\my_first_project.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Buttons.__cstat.et</file>
+            <file>$PROJ_DIR$\HAL_Board.h</file>
+            <file>$PROJ_DIR$\HAL_Buttons.h</file>
+            <file>$PROJ_DIR$\HAL_Wheel.c</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$PROJ_DIR$\Debug\List\my_first_project.map</file>
+            <file>$PROJ_DIR$\HAL_Dogs102x6.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_pwm.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\my_first_project.ulp</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Wheel.h</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Wheel.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Wheel.r43</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Dogs102x6.c</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_SDCard.c</file>
+            <file>$PROJ_DIR$\HAL_AppUart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_pwm.r43</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_AppUart.h</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Board.c</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_AppUart.c</file>
             <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Cma3000.h</file>
             <file>$PROJ_DIR$\HAL_SDCard.h</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Menu.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\led_pwm.r43</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_SDCard.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Dogs102x6.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Wheel.r43</file>
-            <file>$PROJ_DIR$\Debug\Obj\command_parser.r43</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_SDCard.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_SDCard.r43</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Buttons.c</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Menu.h</file>
-            <file>$PROJ_DIR$\achieved\HAL_Cma3000.h</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_SDCard.c</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
-            <file>$PROJ_DIR$\HAL_Board.c</file>
-            <file>$PROJ_DIR$\HAL_AppUart.c</file>
-            <file>$TOOLKIT_DIR$\inc\msp430.h</file>
-            <file>$PROJ_DIR$\HAL_Buttons.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Menu.pbi</file>
-            <file>$TOOLKIT_DIR$\config\linker\lnk430f5529.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Wheel.pbi</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Wheel.c</file>
-            <file>$PROJ_DIR$\HAL_SDCard.c</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_AppUart.c</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Board.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Buttons.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\light_control.r43</file>
-            <file>$PROJ_DIR$\HAL_Cma3000.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_AppUart.pbi</file>
-            <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\command_parser.pbi</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Wheel.h</file>
-            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Dogs102x6.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Board.r43</file>
-            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\light_control.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Dogs102x6.pbi</file>
-            <file>$PROJ_DIR$\HAL_Cma3000.h</file>
-            <file>$PROJ_DIR$\HAL_Buttons.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Board.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\command_parser.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Buttons.__cstat.et</file>
-            <file>$PROJ_DIR$\achieved\HAL_Buttons.c</file>
-            <file>$PROJ_DIR$\command_parser.h</file>
-            <file>$PROJ_DIR$\achieved\HAL_Buttons.h</file>
-            <file>$PROJ_DIR$\light_control.h</file>
-            <file>$TOOLKIT_DIR$\inc\in430.h</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\achieved\HAL_Board.c</file>
-            <file>$PROJ_DIR$\achieved\HAL_Board.h</file>
-            <file>$PROJ_DIR$\led_pwm.c</file>
-            <file>$PROJ_DIR$\led_pwm.h</file>
-            <file>$PROJ_DIR$\light_control.c</file>
-            <file>$PROJ_DIR$\command_parser.c</file>
-            <file>$PROJ_DIR$\HAL_Wheel.c</file>
-            <file>$PROJ_DIR$\Debug\Exe\my_first_project.d43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\bluetooth_port.pbi</file>
             <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL_Buttons.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Board.r43</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\bluetooth_port.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.h</file>
             <file>$PROJ_DIR$\Debug\Obj\light_control.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\led_pwm.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Menu.pbi</file>
+            <file>$PROJ_DIR$\HAL_Menu.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Board.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Dogs102x6.pbi</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_SDCard.h</file>
+            <file>$TOOLKIT_DIR$\inc\msp430f5529.h</file>
+            <file>$PROJ_DIR$\HAL_Cma3000.c</file>
+            <file>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Cma3000.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Buttons.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_Dogs102x6.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\HAL_Wheel.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Cma3000.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 5</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 50 23 83 16</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 31 83 16 19 23 58 70 54 50 4 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL_Dogs102x6.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 8</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 72</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 70 19 23 83 10 74 16 58 54 4 50 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Board.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 69</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 27</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 23 83 19 60 16 58 70 54 50 4 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL_Menu.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 21</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 52</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15 4 74 23 83 58 54 10 28 70 19 50 16 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Menu.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 21</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 52</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 50 23 83 16 37 4 58 54 70 9 93 47 19 30 44 67</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 67 4 30 23 83 58 54 37 44 70 19 50 16 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Buttons.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 94</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 61</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 50 23 83 16 60 4 58 54 70 9 93 47 19 30 31</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 70 58 30 23 83 4 54 60 31 19 50 16 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_SDCard.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 41</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 40</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 50 23 83 16 35 4 58 54 70 9 93 47 19</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 4 23 83 19 35 58 70 54 50 16 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL_Board.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 69</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 27</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 50 23 83 16 2 4 58 54 70 9 93 47 19</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 23 83 19 2 16 58 70 54 50 4 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL_AppUart.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 0</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 64</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 4 58 54 70 9 93 47 19 50 23 83 16</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 9 23 83 10 54 58 47 93 50 18 70 19 16 4</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL_Buttons.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 61</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 70 58 74 23 83 4 54 2 73 19 50 16 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Wheel.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 38</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 55</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 50 23 83 16 67 4 58 54 70 9 93 47 19</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 4 23 83 19 67 58 70 54 50 16 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL_SDCard.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 41</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 40</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 4 23 83 19 32 58 70 54 50 16 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_AppUart.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 64</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 4 58 54 70 9 93 47 19 50 23 83 16</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 9 23 83 37 54 58 47 93 50 7 70 19 16 4</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL_Cma3000.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 5</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 50 23 83 16</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 73 83 16 19 23 58 70 54 50 4 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Dogs102x6.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 8</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 72</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 50 23 83 16 30 4 58 54 70 9 93 47 19 37</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 70 19 23 83 37 30 16 58 54 4 50 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\achieved\HAL_Buttons.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 94</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 61</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 78</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 50 23 83 16 86 4 58 54 70 9 93 47 19 81 45</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 70 58 81 23 83 4 54 86 45 19 50 16 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 12</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 25</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 36</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 86 4 58 54 70 9 93 47 19 50 23 83 16 81 88 80 42 26 3 6 1 82</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 16 42 58 80 54 81 4 70 19 83 50 88 82 47 9 93 23 1 3 26 86 6</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\achieved\HAL_Board.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 69</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 27</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 76</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 50 23 83 16 86 4 58 54 70 9 93 47 19</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 23 83 19 86 16 58 70 54 50 4 47 9 93</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\led_pwm.c</name>
             <outputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 34</file>
+                    <file> 73</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 22</file>
+                    <file> 65</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 96</file>
+                    <file> 56</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 50 23 83 16 86 4 58 54 70 9 93 47 19 88 42 26 3</file>
+                    <file> 2 93 83 38 20 39 13 37 85 86 81 9 98 7 26 47 62</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 58 19 88 23 83 86 42 16 70 54 26 50 4 47 9 93 3</file>
+                    <file> 37 98 7 93 83 20 26 38 13 85 62 2 39 9 86 81 47</file>
                 </tool>
             </inputs>
         </file>
@@ -525,25 +139,75 @@
             <outputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 62</file>
+                    <file> 35</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 71</file>
+                    <file> 43</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 95</file>
+                    <file> 87</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 50 23 83 16 82 80 42 58 54 70 9 93 47 19 26 3 6 1 88</file>
+                    <file> 2 93 83 38 0 10 26 13 37 85 86 81 9 98 47 62 100 31 7</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 23 83 26 80 58 70 19 54 82 88 6 50 16 42 1 3 47 9 93</file>
+                    <file> 31 13 37 93 83 62 9 10 86 0 7 26 81 2 38 100 47 85 98</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL_Board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2 93 83 38 59 39 13 37 85 86 81 9 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93 83 98 59 38 13 85 37 2 39 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 20 39 13 37 85 86 81 9 98 2 93 83 38 21 7 10 26 47 62 100 31 22 0</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 98 83 10 39 21 0 13 37 38 9 2 7 22 86 81 93 100 47 20 26 31 62</file>
                 </tool>
             </inputs>
         </file>
@@ -552,44 +216,182 @@
             <outputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 39</file>
+                    <file> 55</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 66</file>
+                    <file> 27</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 77</file>
+                    <file> 4</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 80 42 58 54 70 9 93 47 19 26 3 6 1</file>
+                    <file> 10 26 13 37 85 86 81 9 98 47 62 100 31</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 6 58 54 93 3 47 9 42 1 26 70 19 80</file>
+                    <file> 13 85 98 37 100 47 26 31 62 9 86 81 10</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\HAL_Wheel.c</name>
+            <name>$PROJ_DIR$\achieved\HAL_Board.c</name>
             <outputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 38</file>
+                    <file> 82</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 55</file>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2 93 83 38 20 39 13 37 85 86 81 9 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93 83 98 20 38 13 85 37 2 39 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\bluetooth_port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 22 2 93 83 38 0 7 10 26 13 37 85 86 81 9 98 47 62 100 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 10 83 37 81 13 9 0 2 7 93 31 62 86 22 38 100 47 85 98</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\achieved\HAL_Buttons.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2 93 83 38 20 39 13 37 85 86 81 9 98 21 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 13 21 93 83 39 37 20 49 98 2 38 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Buttons.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2 93 83 38 16 39 13 37 85 86 81 9 98 54 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 13 54 93 83 39 37 16 77 98 2 38 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL_Buttons.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 4 23 83 19 15 58 70 54 50 16 47 9 93</file>
+                    <file> 85 13 60 93 83 39 37 59 40 98 2 38 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL_SDCard.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39 93 83 98 78 13 85 37 2 38 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Menu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2 93 83 38 44 39 13 37 85 86 81 9 98 54 46 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 39 54 93 83 13 37 44 46 85 98 2 38 9 86 81</file>
                 </tool>
             </inputs>
         </file>
@@ -598,13 +400,181 @@
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 11</file>
+                    <file> 63</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 53 65 39 69 94 34 62 12 75</file>
+                    <file> 53 51 84 55 82 96 73 35 79 14</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL_AppUart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 39 13 37 85 86 81 9 98 2 93 83 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 93 83 30 37 13 9 81 2 72 85 98 38 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL_Wheel.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39 93 83 98 99 13 85 37 2 38 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL_Dogs102x6.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 98 93 83 30 60 38 13 37 39 2 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Wheel.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2 93 83 38 67 39 13 37 85 86 81 9 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39 93 83 98 67 13 85 37 2 38 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Dogs102x6.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2 93 83 38 54 39 13 37 85 86 81 9 98 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 98 93 83 44 54 38 13 37 39 2 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_SDCard.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2 93 83 38 92 39 13 37 85 86 81 9 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39 93 83 98 92 13 85 37 2 38 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93 83 98 16 38 13 85 37 2 39 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_AppUart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 39 13 37 85 86 81 9 98 2 93 83 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 93 83 44 37 13 9 81 2 74 85 98 38 39</file>
                 </tool>
             </inputs>
         </file>
@@ -613,13 +583,70 @@
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 92 11</file>
+                    <file> 50 63</file>
                 </tool>
                 <tool>
                     <name>ULP430</name>
-                    <file> 13</file>
+                    <file> 66</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL_Menu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99 39 60 93 83 13 37 30 42 85 98 2 38 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL_Cma3000.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2 93 83 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40 83 38 98 93 13 85 37 2 39 9 86 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MSP-EXP430F5529_HAL\HAL_Cma3000.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2 93 83 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 83 38 98 93 13 85 37 2 39 9 86 81</file>
+                </tool>
+            </inputs>
         </file>
     </configuration>
     <configuration>

@@ -35,7 +35,7 @@ static LIGHT_FRAME *list_erase (LIGHT_FRAME *list_head) {
 }
 
 
-int parse_string (char *input_string) {
+int parse_frame_string (char *input_string) {
     char *left_pos;
     char *semi_pos, *semi_data_pos, *com_pos, *com_data_pos, *end_p;
     unsigned int com_data[ITEM_DATA_LENGTH];
@@ -89,8 +89,14 @@ int frame_list_clear() {
 }
 
 
+enum COMMAND_TYPE parse_command (char *command, char **payload) {
+  *payload = command;
+  return MODE_FRAME;
+}
+
+
 int main_test_for_parser () {
-    parse_string(example_string);
+    parse_frame_string(example_string);
     
     LIGHT_FRAME *list_c;
     // Loop the whole list.

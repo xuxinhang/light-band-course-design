@@ -15,13 +15,16 @@ typedef struct light_frame_struct {
     struct light_frame_struct *_next;
 } LIGHT_FRAME; 
 
+enum COMMAND_TYPE {MODE_FRAME, MODE_VOCE};
+
 extern LIGHT_FRAME *frame_list;
 
-int parse_string (char *input_string);
+int parse_frame_string (char *input_string);
 int frame_list_clear ();
 
 static LIGHT_FRAME *list_erase (LIGHT_FRAME *list_head);
 static LIGHT_FRAME *list_append (LIGHT_FRAME *list_head);
+enum COMMAND_TYPE parse_command (char *command, char **payload);
 
 int main_test_for_parser ();
 
